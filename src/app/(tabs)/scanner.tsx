@@ -4,7 +4,7 @@ import { Alert, Button, ScrollView, StyleSheet, Text, View } from 'react-native'
 import { AudioRecorder } from '../../components/AudioRecorder';
 import { CameraScanner } from '../../components/CameraScanner';
 import { ProductCard } from '../../components/ProductCard';
-import { useAudit } from '../../context/redux/AuditContext';
+import { useAudit } from '../../context/AuditContext';
 import { Product } from '../../types/Product';
 
 export default function ReceptionScannerScreen() {

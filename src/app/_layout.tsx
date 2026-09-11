@@ -1,5 +1,5 @@
 import { Stack } from 'expo-router';
-import { AuditProvider } from '../context/redux/AuditContext';
+import { AuditProvider } from '../context/AuditContext';
 
 export default function RootLayout() {
   return (

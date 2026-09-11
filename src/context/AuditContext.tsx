@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState } from 'react';
-import { Product } from '../../types/Product';
-import { AuditEntry } from '../../types/AuditEntry';
-import { INITIAL_PRODUCTS } from '../../data/products';
+import { Product } from '../types/Product';
+import { AuditEntry } from '../types/AuditEntry';
+import { INITIAL_PRODUCTS } from '../data/products';
 
 interface AuditContextType {
   products: Product[];

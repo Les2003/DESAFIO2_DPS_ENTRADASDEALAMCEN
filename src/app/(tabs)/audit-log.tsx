@@ -1,7 +1,6 @@
-import React from 'react';
 import { FlatList, StyleSheet, Text, View } from 'react-native';
-import { useAudit } from '../../context/redux/AuditContext';
 import { AuditLogItem } from '../../components/AuditLogItem';
+import { useAudit } from '../../context/AuditContext';
 
 export default function AuditLogScreen() {
   const { auditLogs } = useAudit();

@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
-import { useAudit } from '../../context/redux/AuditContext';
 import { ProductCard } from '../../components/ProductCard';
 import { SearchBar } from '../../components/SearchBar';
+import { useAudit } from '../../context/AuditContext';
 
 export default function InventoryScreen() {
   const { products } = useAudit();

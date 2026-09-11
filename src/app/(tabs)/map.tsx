@@ -1,7 +1,6 @@
-import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { useAudit } from '../../context/redux/AuditContext';
 import { LocationMap } from '../../components/LocationMap';
+import { useAudit } from '../../context/AuditContext';
 
 export default function MapScreen() {
   const { auditLogs } = useAudit();
